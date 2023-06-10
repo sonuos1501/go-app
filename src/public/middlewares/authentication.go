@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/quanndh/go-app/public/services"
+	"github.com/sonuos1501/go-app/public/services"
 	"net/http"
 	"strings"
 )

@@ -2,10 +2,10 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/quanndh/go-app/public/config"
-	"github.com/quanndh/go-app/public/controllers"
-	"github.com/quanndh/go-app/public/middlewares"
-	"github.com/quanndh/go-app/public/services"
+	"github.com/sonuos1501/go-app/public/config"
+	"github.com/sonuos1501/go-app/public/controllers"
+	"github.com/sonuos1501/go-app/public/middlewares"
+	"github.com/sonuos1501/go-app/public/services"
 	"go.uber.org/fx"
 )
 

@@ -1,4 +1,4 @@
-module github.com/quanndh/go-app/public
+module github.com/sonuos1501/go-app/public
 
 go 1.16
 
@@ -15,7 +15,7 @@ require (
 
 require (
 	github.com/google/go-cmp v0.5.8 // indirect
-	github.com/quanndh/go-app/adapter v0.0.0-00010101000000-000000000000
+	github.com/sonuos1501/go-app/adapter v0.0.0-00010101000000-000000000000
 )
 
-replace github.com/quanndh/go-app/adapter => ./../adapter
+replace github.com/sonuos1501/go-app/adapter => ./../adapter

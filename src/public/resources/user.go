@@ -1,6 +1,6 @@
 package resources
 
-import "github.com/quanndh/go-app/adapter/models"
+import "github.com/sonuos1501/go-app/adapter/models"
 
 type UserResource struct {
 	ID        uint   `json:"id"`

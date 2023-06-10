@@ -3,7 +3,7 @@ package queues
 import (
 	"fmt"
 	"github.com/hibiken/asynq"
-	"github.com/quanndh/go-app/public/config"
+	"github.com/sonuos1501/go-app/public/config"
 	"go.uber.org/fx"
 )
 

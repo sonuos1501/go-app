@@ -2,14 +2,14 @@ package boostrap
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/quanndh/go-app/adapter/db"
-	"github.com/quanndh/go-app/adapter/repositories"
-	"github.com/quanndh/go-app/public/queues"
+	"github.com/sonuos1501/go-app/adapter/db"
+	"github.com/sonuos1501/go-app/adapter/repositories"
+	"github.com/sonuos1501/go-app/public/queues"
 
-	"github.com/quanndh/go-app/public/config"
-	"github.com/quanndh/go-app/public/controllers"
-	"github.com/quanndh/go-app/public/router"
-	"github.com/quanndh/go-app/public/services"
+	"github.com/sonuos1501/go-app/public/config"
+	"github.com/sonuos1501/go-app/public/controllers"
+	"github.com/sonuos1501/go-app/public/router"
+	"github.com/sonuos1501/go-app/public/services"
 	"go.uber.org/fx"
 	"log"
 	"os"

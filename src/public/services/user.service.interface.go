@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/quanndh/go-app/adapter/dtos"
-	"github.com/quanndh/go-app/public/resources"
+	"github.com/sonuos1501/go-app/adapter/dtos"
+	"github.com/sonuos1501/go-app/public/resources"
 )
 
 type IUserService interface {

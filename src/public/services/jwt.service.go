@@ -1,9 +1,10 @@
 package services
 
 import (
-	"github.com/golang-jwt/jwt"
-	"github.com/quanndh/go-app/public/resources"
 	"time"
+
+	"github.com/golang-jwt/jwt"
+	"github.com/sonuos1501/go-app/public/resources"
 )
 
 type UserClaims struct {
@@ -44,6 +45,6 @@ func (j JwtService) Verify(tokenString string) (*UserClaims, error) {
 	}
 
 	claims := token.Claims.(*UserClaims)
-	
+
 	return claims, nil
 }

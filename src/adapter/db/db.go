@@ -2,8 +2,8 @@ package db
 
 import (
 	"fmt"
-	"github.com/quanndh/go-app/adapter/models"
-	"github.com/quanndh/go-app/public/config"
+	"github.com/sonuos1501/go-app/adapter/models"
+	"github.com/sonuos1501/go-app/public/config"
 	"go.uber.org/fx"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"

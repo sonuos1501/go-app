@@ -1,8 +1,8 @@
 package repositories
 
 import (
-	"github.com/quanndh/go-app/adapter/dtos"
-	"github.com/quanndh/go-app/adapter/models"
+	"github.com/sonuos1501/go-app/adapter/dtos"
+	"github.com/sonuos1501/go-app/adapter/models"
 	"gorm.io/gorm"
 )
 

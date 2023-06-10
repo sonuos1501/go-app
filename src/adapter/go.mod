@@ -1,4 +1,4 @@
-module github.com/quanndh/go-app/adapter
+module github.com/sonuos1501/go-app/adapter
 
 go 1.17
 
@@ -44,4 +44,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/quanndh/go-app/public => ./../public
+replace github.com/sonuos1501/go-app/public => ./../public

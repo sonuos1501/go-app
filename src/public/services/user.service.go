@@ -1,13 +1,14 @@
 package services
 
 import (
-	"github.com/hibiken/asynq"
-	"github.com/quanndh/go-app/adapter/dtos"
-	"github.com/quanndh/go-app/adapter/queues"
-	"github.com/quanndh/go-app/adapter/repositories"
-	"github.com/quanndh/go-app/public/resources"
-	"golang.org/x/crypto/bcrypt"
 	"log"
+
+	"github.com/hibiken/asynq"
+	"github.com/sonuos1501/go-app/adapter/dtos"
+	"github.com/sonuos1501/go-app/adapter/queues"
+	"github.com/sonuos1501/go-app/adapter/repositories"
+	"github.com/sonuos1501/go-app/public/resources"
+	"golang.org/x/crypto/bcrypt"
 )
 
 type UserService struct {

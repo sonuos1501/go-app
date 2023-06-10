@@ -3,8 +3,8 @@ package controllers
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/quanndh/go-app/adapter/dtos"
-	"github.com/quanndh/go-app/public/services"
+	"github.com/sonuos1501/go-app/adapter/dtos"
+	"github.com/sonuos1501/go-app/public/services"
 	"log"
 	"net/http"
 )
