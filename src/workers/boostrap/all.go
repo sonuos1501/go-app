@@ -1,9 +1,9 @@
 package boostrap
 
 import (
-	"github.com/quanndh/go-app/worker/config"
-	"github.com/quanndh/go-app/worker/handlers"
-	"github.com/quanndh/go-app/worker/queues"
+	"github.com/sonuos1501/go-app/worker/config"
+	"github.com/sonuos1501/go-app/worker/handlers"
+	"github.com/sonuos1501/go-app/worker/queues"
 	"go.uber.org/fx"
 )
 

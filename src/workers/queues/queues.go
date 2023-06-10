@@ -2,12 +2,13 @@ package queues
 
 import (
 	"fmt"
-	"github.com/hibiken/asynq"
-	"github.com/quanndh/go-app/adapter/queues"
-	"github.com/quanndh/go-app/worker/config"
-	"github.com/quanndh/go-app/worker/handlers"
-	"go.uber.org/fx"
 	"log"
+
+	"github.com/hibiken/asynq"
+	"github.com/sonuos1501/go-app/adapter/queues"
+	"github.com/sonuos1501/go-app/worker/config"
+	"github.com/sonuos1501/go-app/worker/handlers"
+	"go.uber.org/fx"
 )
 
 type QueueServerIn struct {

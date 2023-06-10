@@ -4,8 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+
 	"github.com/hibiken/asynq"
-	"github.com/quanndh/go-app/adapter/queues"
+	"github.com/sonuos1501/go-app/adapter/queues"
 )
 
 type QueueHandler struct {

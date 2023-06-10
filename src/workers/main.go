@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/quanndh/go-app/worker/boostrap"
+	"github.com/sonuos1501/go-app/worker/boostrap"
 	"go.uber.org/fx"
 )
 
