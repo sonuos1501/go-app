@@ -3,10 +3,11 @@ package middlewares
 import (
 	"encoding/base64"
 	"fmt"
-	"github.com/gin-gonic/gin"
-	"github.com/sonuos1501/go-app/public/services"
 	"net/http"
 	"strings"
+
+	"github.com/gin-gonic/gin"
+	"github.com/sonuos1501/go-app/public/services"
 )
 
 const (
